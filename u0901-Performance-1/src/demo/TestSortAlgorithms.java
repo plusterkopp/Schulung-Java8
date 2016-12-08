@@ -1,11 +1,11 @@
 package demo;
 
-import java.util.Arrays;
-
 import utils.Assert;
 import utils.SimpleTest;
 import utils.Test;
 import utils.TestRunner;
+
+import java.util.Arrays;
 
 
 class AlphaSort {

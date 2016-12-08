@@ -1,15 +1,10 @@
 package appl;
 
-import java.awt.AWTEvent;
-import java.awt.Color;
-import java.awt.FlowLayout;
-import java.awt.Frame;
-import java.awt.TextField;
+import java.awt.*;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.lang.annotation.Native;
 import java.util.function.Consumer;
 
 public class MyFrame extends Frame {

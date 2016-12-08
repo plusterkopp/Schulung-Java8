@@ -1,14 +1,14 @@
 package demo;
 
-import static java.lang.System.out;
-
-import java.util.ArrayList;
-import java.util.List;
-
 import utils.Assert;
 import utils.SimpleTest;
 import utils.TestContainer;
 import utils.TestRunner;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import static java.lang.System.out;
 
 
 public class TestArraysAndLists {
@@ -20,8 +20,8 @@ public class TestArraysAndLists {
 	static TestContainer all = new TestContainer("all", 2) {
 		{
 			final int SIZE = 1000;
-			final int N = 10_000;
-			final int LOOPS = 20;
+			final int N = 10_0000;
+			final int LOOPS = 50;
 			final int EXPECTED = (SIZE - 1) / 2 * (SIZE) + SIZE / 2;
 			
 			initialize(() -> out.println("initialize"));

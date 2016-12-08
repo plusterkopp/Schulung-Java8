@@ -1,15 +1,10 @@
 package db.util.gui;
 
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
+import javax.swing.*;
+import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
-
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
 
 class TextFieldPanel extends JPanel {
 	private static final long serialVersionUID = 1L;

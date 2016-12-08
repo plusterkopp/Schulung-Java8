@@ -1,9 +1,9 @@
 package utils;
 
+import util.Catcher;
+
 import java.util.Objects;
 import java.util.function.Consumer;
-
-import util.Catcher;
 
 public abstract class Test implements Iterable<Test> {
 

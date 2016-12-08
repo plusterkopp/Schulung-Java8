@@ -30,30 +30,16 @@
 
 import jas.jasError;
 import jasmin.ClassFile;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+import org.objectweb.asm.*;
+import org.objectweb.asm.util.TraceClassVisitor;
 
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
-import java.io.PrintWriter;
-import java.io.StringReader;
-import java.io.StringWriter;
+import java.io.*;
 import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
-
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
-
-import org.objectweb.asm.Attribute;
-import org.objectweb.asm.ByteVector;
-import org.objectweb.asm.ClassReader;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.ClassWriter;
-import org.objectweb.asm.Label;
-import org.objectweb.asm.Opcodes;
-import org.objectweb.asm.util.TraceClassVisitor;
 
 class ClassFilter extends ClassVisitor {
 

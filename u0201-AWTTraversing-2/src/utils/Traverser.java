@@ -1,7 +1,6 @@
 package utils;
 
-import java.awt.Component;
-import java.awt.Container;
+import java.awt.*;
 
 public class Traverser {
 	public static void traverse( Component component, Handler handler) {

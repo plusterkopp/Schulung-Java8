@@ -1,21 +1,20 @@
 package appl;
 
-import static parser.NumberParser.number;
-import static parser.Or2Parser.or2;
-import static parser.RepReduceParser.repReduce;
-import static parser.Seq3Parser.seq3;
-import static parser.ForwardParser.forward;
-
-import java.io.StringReader;
-import java.util.LinkedHashMap;
-import java.util.Map;
-
 import parser.Parser;
 import parser.RepReduceParser;
 import parser.SpecialParser;
 import scanner.Scanner;
 import scanner.Special;
 import scanner.Specials;
+
+import java.io.StringReader;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import static parser.ForwardParser.forward;
+import static parser.NumberParser.number;
+import static parser.Or2Parser.or2;
+import static parser.Seq3Parser.seq3;
 
 public class ExprParser6 {
 	

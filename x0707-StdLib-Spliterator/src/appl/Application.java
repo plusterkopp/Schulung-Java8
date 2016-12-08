@@ -1,11 +1,11 @@
 package appl;
 
-import static java.lang.System.out;
+import util.ThreadUtil;
 
 import java.util.Spliterator;
 import java.util.Spliterators;
 
-import util.ThreadUtil;
+import static java.lang.System.out;
 
 
 public class Application {

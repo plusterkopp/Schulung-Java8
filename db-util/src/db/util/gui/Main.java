@@ -1,12 +1,10 @@
 package db.util.gui;
 
-import java.awt.Dimension;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Properties;
-
-import javax.swing.JFrame;
-import javax.swing.UIManager;
 
 public class Main {
 

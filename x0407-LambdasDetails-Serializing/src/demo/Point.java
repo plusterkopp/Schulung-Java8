@@ -1,10 +1,10 @@
 package demo;
 
-import static java.lang.System.out;
+import util.SerializeUtil;
 
 import java.io.Serializable;
 
-import util.SerializeUtil;
+import static java.lang.System.out;
 
 public class Point implements Serializable {
 	

@@ -1,14 +1,14 @@
 package appl;
 
-import static java.lang.System.out;
+import db.util.appl.Db;
+import util.Log;
+import utils.Jdbc;
+import utils.JdbcProperties;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-import util.Log;
-import utils.Jdbc;
-import utils.JdbcProperties;
-import db.util.appl.Db;
+import static java.lang.System.out;
 
 public class Application {
 

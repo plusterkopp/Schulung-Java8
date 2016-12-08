@@ -1,14 +1,14 @@
 package appl;
 
-import static parser.NumberParser.number;
+import parser.Parser;
+import scanner.Scanner;
+import scanner.Specials;
 
 import java.io.StringReader;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import parser.Parser;
-import scanner.Scanner;
-import scanner.Specials;
+import static parser.NumberParser.number;
 
 public class ExprParser1 {
 	

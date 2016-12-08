@@ -1,18 +1,17 @@
 package test;
 
 
+import events.EventA;
+import events.EventB;
+import events.EventC;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
 import states.Context;
 import states.Context.StateX;
 import states.Context.StateY;
 import states.Context.StateZ;
 import utils.StateMachine;
-import events.EventA;
-import events.EventB;
-import events.EventC;
 
 public class EventMachineTest {
 

@@ -1,8 +1,9 @@
 package appl;
 
-import java.awt.Point;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
+
 import static java.lang.System.out;
 
 public class Application {

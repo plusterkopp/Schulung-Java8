@@ -1,16 +1,16 @@
 package i;
 
-import static java.lang.System.out;
+import f.Foo;
+import util.Features;
+import util.Log;
+import util.SerializeUtil;
 
 import java.io.Serializable;
 import java.lang.invoke.SerializedLambda;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-import util.Features;
-import util.Log;
-import util.SerializeUtil;
-import f.Foo;
+import static java.lang.System.out;
 
 public class Application implements Serializable {
 

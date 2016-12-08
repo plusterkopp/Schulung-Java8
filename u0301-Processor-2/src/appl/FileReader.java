@@ -1,15 +1,11 @@
 package appl;
 
-import static java.lang.System.out;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
-
-import appl.Application.IntHolder;
 
 public class FileReader<T> {
 

@@ -1,7 +1,8 @@
 package ai;
 
-import static java.lang.System.out;
 import util.Features;
+
+import static java.lang.System.out;
 
 public class Application {
 

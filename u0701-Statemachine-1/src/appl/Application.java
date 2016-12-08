@@ -1,10 +1,10 @@
 package appl;
 
-import states.Context;
-import utils.StateMachine;
 import events.EventA;
 import events.EventB;
 import events.EventC;
+import states.Context;
+import utils.StateMachine;
 
 public class Application {
 

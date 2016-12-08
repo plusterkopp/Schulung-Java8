@@ -1,11 +1,11 @@
 package parser;
 
-import java.util.function.Supplier;
-
 import scanner.Scanner;
 import scanner.Symbol;
 import util.Func3;
 import util.Lazy;
+
+import java.util.function.Supplier;
 
 public class RepReduceParser<T, S> extends Parser<T> {
 	public static <T,S> RepReduceParser<T, S> repReduce(

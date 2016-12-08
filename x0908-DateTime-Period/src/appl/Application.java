@@ -1,9 +1,9 @@
 package appl;
 
-import static java.lang.System.out;
-
 import java.time.LocalDate;
 import java.time.Period;
+
+import static java.lang.System.out;
 
 public class Application {
 

@@ -27,19 +27,12 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  */
+
+import org.objectweb.asm.*;
+import org.objectweb.asm.util.TraceClassVisitor;
+
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
-
-import org.objectweb.asm.Attribute;
-import org.objectweb.asm.ByteVector;
-import org.objectweb.asm.ClassReader;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.ClassWriter;
-import org.objectweb.asm.FieldVisitor;
-import org.objectweb.asm.Label;
-import org.objectweb.asm.MethodVisitor;
-import org.objectweb.asm.Opcodes;
-import org.objectweb.asm.util.TraceClassVisitor;
 
 /**
  * @author Eric Bruneton

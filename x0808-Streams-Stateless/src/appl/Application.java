@@ -1,13 +1,13 @@
 package appl;
 
-import static java.lang.System.out;
+import util.ThreadUtil;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-import util.ThreadUtil;
+import static java.lang.System.out;
 
 public class Application {
 

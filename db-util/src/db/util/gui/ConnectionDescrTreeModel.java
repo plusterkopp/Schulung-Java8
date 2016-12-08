@@ -1,12 +1,12 @@
 package db.util.gui;
 
-import javax.swing.event.TreeModelListener;
-import javax.swing.tree.TreeModel;
-import javax.swing.tree.TreePath;
-
 import db.util.core.ColumnDescr;
 import db.util.core.ConnectionDescr;
 import db.util.core.TableDescr;
+
+import javax.swing.event.TreeModelListener;
+import javax.swing.tree.TreeModel;
+import javax.swing.tree.TreePath;
 
 class ConnectionDescrTreeModel implements TreeModel {
 	private final ConnectionDescr connectionDescr;

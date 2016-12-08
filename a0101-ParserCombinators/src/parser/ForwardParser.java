@@ -1,10 +1,10 @@
 package parser;
 
-import java.util.function.Supplier;
-
 import scanner.Scanner;
 import scanner.Symbol;
 import util.Lazy;
+
+import java.util.function.Supplier;
 
 public class ForwardParser<T> extends Parser<T> {
 

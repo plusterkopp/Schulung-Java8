@@ -1,10 +1,11 @@
 package s;
 
-import static java.lang.System.out;
+import f.Foo;
 import util.Features;
 import util.Log;
 import util.SerializeUtil;
-import f.Foo;
+
+import static java.lang.System.out;
 
 public class Application {
 

@@ -1,12 +1,9 @@
 package appl;
 
-import java.awt.FlowLayout;
+import javax.swing.*;
+import java.awt.*;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JTextField;
 
 public class MathFrame extends JFrame {
 	

@@ -1,6 +1,11 @@
 package appl;
 
-import static parser.IdentifierParser.identifier;
+import parser.Parser;
+import parser.RepCollectParser;
+import parser.Seq2Parser;
+import parser.SpecialParser;
+import scanner.Scanner;
+import scanner.Specials;
 
 import java.io.StringReader;
 import java.util.Arrays;
@@ -8,12 +13,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import parser.Parser;
-import parser.RepCollectParser;
-import parser.Seq2Parser;
-import parser.SpecialParser;
-import scanner.Scanner;
-import scanner.Specials;
+import static parser.IdentifierParser.identifier;
 
 public class SqlParserNull {
 	
@@ -56,12 +56,12 @@ public class SqlParserNull {
 	
 	public SqlParserNull() {
 		this.sql = new Seq2Parser<>(
-				() -> this.select,
-				() -> this.from,
+				() -> getSelect(),
+				() -> getFrom(),
 				(s1, s2) -> null);
 		this.select = new Seq2Parser<>(
 				() -> SELECT,
-				() -> this.columns,
+				() -> getColumns(),
 				(s1, s2) -> null);
 		this.columns = new RepCollectParser<>(
 				() -> identifier,
@@ -73,7 +73,19 @@ public class SqlParserNull {
 				() -> identifier,
 				(s1, s2) -> null);
 	}
-	
+
+	private Parser<List<String>> getColumns() {
+		return this.columns;
+	}
+
+	private Parser<String> getFrom() {
+		return this.from;
+	}
+
+	private Parser<List<String>> getSelect() {
+		return this.select;
+	}
+
 	public static Sql parse(String text) {
 		Scanner scanner = new Scanner(specials, new StringReader(text));
 		scanner.next();

@@ -1,13 +1,8 @@
 package appl;
 
-import static java.lang.System.out;
+import java.time.*;
 
-import java.time.Instant;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.Month;
-import java.time.ZoneOffset;
+import static java.lang.System.out;
 
 public class Application {
 

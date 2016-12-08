@@ -1,11 +1,11 @@
 package appl;
 
-import static java.lang.System.out;
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static java.lang.System.out;
 
 public class Application {
 

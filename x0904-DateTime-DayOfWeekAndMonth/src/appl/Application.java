@@ -1,9 +1,9 @@
 package appl;
 
-import static java.lang.System.out;
-
 import java.time.DayOfWeek;
 import java.time.Month;
+
+import static java.lang.System.out;
 
 public class Application {
 

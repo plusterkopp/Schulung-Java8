@@ -1,16 +1,7 @@
 package db.util.gui;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JSplitPane;
-import javax.swing.JTable;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
-import javax.swing.JTree;
+import javax.swing.*;
+import java.awt.*;
 
 class MainPanel extends JPanel {
 	private static final long serialVersionUID = 1L;

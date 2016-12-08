@@ -1,12 +1,12 @@
 package a4;
 
-import java.io.StringReader;
-
 import parser.NumberParser;
 import parser.SpecialParser;
 import scanner.Scanner;
 import scanner.Special;
 import scanner.Specials;
+
+import java.io.StringReader;
 
 public class MyParser {
 	

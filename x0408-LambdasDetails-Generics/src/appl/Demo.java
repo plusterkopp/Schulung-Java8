@@ -1,11 +1,11 @@
 package appl;
 
-import static java.lang.System.out;
+import util.LambdaUtil;
 
 import java.io.Serializable;
 import java.lang.reflect.Method;
 
-import util.LambdaUtil;
+import static java.lang.System.out;
 
 @FunctionalInterface
 interface Consumer<T> extends Serializable {

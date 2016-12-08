@@ -1,9 +1,9 @@
 package appl;
 
-import static java.lang.System.out;
-
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
+
+import static java.lang.System.out;
 
 public class Application {
 

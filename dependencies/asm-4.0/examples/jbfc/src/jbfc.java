@@ -27,14 +27,15 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  */
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.PrintWriter;
 
 import org.objectweb.asm.ClassWriter;
 import org.objectweb.asm.jbfc.BFCompiler;
 import org.objectweb.asm.util.TraceClassVisitor;
+
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 /**
  * A naive implementation of compiler for Brain**** language.

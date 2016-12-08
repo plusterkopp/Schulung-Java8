@@ -1,10 +1,6 @@
 package utils;
 
-import java.util.Arrays;
-import java.util.ConcurrentModificationException;
-import java.util.Iterator;
-import java.util.ListIterator;
-import java.util.NoSuchElementException;
+import java.util.*;
 import java.util.function.IntUnaryOperator;
 
 public class Array<T> implements Iterable<T> {

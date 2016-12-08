@@ -1,22 +1,22 @@
 package appl;
 
-import static parser.ForwardParser.forward;
-import static parser.IdentifierParser.identifier;
-import static parser.NumberParser.number;
-import static parser.StringParser.string;
-import static parser.Or3Parser.or3;
-import static parser.RepCollectParser.repCollect;
-import static parser.Seq3Parser.seq3;
-import static parser.TransformParser.transform;
+import parser.Parser;
+import parser.SpecialParser;
+import scanner.Scanner;
+import scanner.Specials;
 
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
 
-import parser.Parser;
-import parser.SpecialParser;
-import scanner.Scanner;
-import scanner.Specials;
+import static parser.ForwardParser.forward;
+import static parser.IdentifierParser.identifier;
+import static parser.NumberParser.number;
+import static parser.Or3Parser.or3;
+import static parser.RepCollectParser.repCollect;
+import static parser.Seq3Parser.seq3;
+import static parser.StringParser.string;
+import static parser.TransformParser.transform;
 
 public class JSONParser {
 	

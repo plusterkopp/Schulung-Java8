@@ -1,10 +1,9 @@
 package util;
 
-import java.io.File;
-import java.io.FileReader;
-
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
+import java.io.File;
+import java.io.FileReader;
 
 public class JSLoader {
 	public static ScriptEngine load(String... directories) {

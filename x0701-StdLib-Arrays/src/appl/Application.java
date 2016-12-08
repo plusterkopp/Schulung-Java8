@@ -1,6 +1,6 @@
 package appl;
 
-import static java.lang.System.out;
+import util.PerformanceRunner;
 
 import java.util.Arrays;
 import java.util.Spliterator.OfInt;
@@ -8,7 +8,7 @@ import java.util.function.IntBinaryOperator;
 import java.util.function.IntConsumer;
 import java.util.function.IntUnaryOperator;
 
-import util.PerformanceRunner;
+import static java.lang.System.out;
 
 public class Application {
 

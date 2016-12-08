@@ -1,6 +1,6 @@
 package utils;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 public interface Handler<T extends Component> {

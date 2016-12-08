@@ -2,7 +2,6 @@ package a7;
 
 import org.junit.Assert;
 import org.junit.Test;
-
 import parser.Parser;
 
 public class TestSimpleParser {

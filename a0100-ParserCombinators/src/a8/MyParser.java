@@ -1,18 +1,11 @@
 package a8;
 
-import java.io.StringReader;
-
-import parser.MapParser;
-import parser.NumberParser;
-import parser.Optional0Parser;
-import parser.OrParser;
-import parser.Parser;
-import parser.RepSepParser;
-import parser.Seq3Parser;
-import parser.SpecialParser;
+import parser.*;
 import scanner.Scanner;
 import scanner.Special;
 import scanner.Specials;
+
+import java.io.StringReader;
 
 public class MyParser {
 	

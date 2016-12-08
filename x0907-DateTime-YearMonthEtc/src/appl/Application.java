@@ -1,11 +1,11 @@
 package appl;
 
-import static java.lang.System.out;
-
 import java.time.Month;
 import java.time.MonthDay;
 import java.time.Year;
 import java.time.YearMonth;
+
+import static java.lang.System.out;
 
 public class Application {
 

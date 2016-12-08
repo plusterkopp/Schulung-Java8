@@ -1,11 +1,11 @@
 package appl;
 
+import util.ThreadStatisticRunner;
+import util.ThreadUtil;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
-
-import util.ThreadStatisticRunner;
-import util.ThreadUtil;
 
 public class Application {
 

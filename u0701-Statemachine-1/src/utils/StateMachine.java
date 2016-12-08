@@ -2,6 +2,7 @@ package utils;
 
 import java.util.HashMap;
 import java.util.Map;
+
 import static java.lang.System.out;
 
 public class StateMachine {

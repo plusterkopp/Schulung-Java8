@@ -1,10 +1,10 @@
 package parser;
 
-import java.util.function.BiFunction;
-import java.util.function.Supplier;
-
 import scanner.Scanner;
 import scanner.Symbol;
+
+import java.util.function.BiFunction;
+import java.util.function.Supplier;
 
 public class Optional0Parser<O, T, R> extends Parser<R> {
 

@@ -1,18 +1,11 @@
 package appl;
 
-import java.awt.Button;
-import java.awt.Component;
-import java.awt.FlowLayout;
-import java.awt.Frame;
-import java.awt.Panel;
-import java.awt.TextArea;
-import java.awt.TextComponent;
-import java.awt.TextField;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-
 import utils.Handler;
 import utils.Traverser;
+
+import java.awt.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 public class MyFrame extends Frame {
 	private final Panel panelLeft = new Panel();

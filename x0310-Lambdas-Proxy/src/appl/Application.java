@@ -1,11 +1,11 @@
 package appl;
 
+import util.TraceHandler;
+import util.XProxy;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 import java.util.Arrays;
-
-import util.TraceHandler;
-import util.XProxy;
 
 public class Application {
 	public static void main(String[] args) {

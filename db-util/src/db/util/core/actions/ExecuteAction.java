@@ -1,13 +1,12 @@
 package db.util.core.actions;
 
-import java.sql.Statement;
-
-
 import db.util.core.Action;
 import db.util.core.ConnectionDescr;
 import db.util.core.JdbcUtils;
 import db.util.core.ResultSetToString;
 import db.util.logger.Logger;
+
+import java.sql.Statement;
 
 public class ExecuteAction implements Action {
 

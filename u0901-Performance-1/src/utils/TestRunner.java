@@ -1,8 +1,8 @@
 package utils;
 
-import static java.lang.System.out;
-
 import java.util.List;
+
+import static java.lang.System.out;
 
 
 public class TestRunner {

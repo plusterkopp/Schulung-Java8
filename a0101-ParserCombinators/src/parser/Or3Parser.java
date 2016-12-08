@@ -1,11 +1,11 @@
 package parser;
 
-import java.util.function.Supplier;
-
 import scanner.Scanner;
 import scanner.Symbol;
 import util.Func1;
 import util.Lazy;
+
+import java.util.function.Supplier;
 
 public class Or3Parser<T> extends Parser<T> {
 	public static <T> Or3Parser<T> or3(Supplier<Parser<? extends T>> p0, Supplier<Parser<? extends T>> p1, Supplier<Parser<? extends T>> p2, Func1<T, T> reducer) {

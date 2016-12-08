@@ -1,11 +1,12 @@
 package states;
 
-import static util.ReflectUtil.stringOf;
-import utils.State;
-import utils.StateMachine;
 import events.EventA;
 import events.EventB;
 import events.EventC;
+import utils.State;
+import utils.StateMachine;
+
+import static util.ReflectUtil.stringOf;
 
 
 public class Context {

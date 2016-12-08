@@ -1,16 +1,15 @@
 package db.util.core.actions;
 
-import java.sql.ResultSet;
-import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
-
-
 import db.util.core.Action;
 import db.util.core.ConnectionDescr;
 import db.util.core.JdbcUtils;
 import db.util.core.TableDescr;
 import db.util.logger.Logger;
+
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DeleteAction implements Action {
 

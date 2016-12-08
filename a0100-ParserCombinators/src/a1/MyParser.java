@@ -1,10 +1,10 @@
 package a1;
 
-import java.io.StringReader;
-
 import scanner.Scanner;
 import scanner.Special;
 import scanner.Specials;
+
+import java.io.StringReader;
 
 public class MyParser {
 	

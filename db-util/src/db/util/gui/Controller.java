@@ -1,33 +1,21 @@
 package db.util.gui;
 
-import java.awt.FileDialog;
-import java.awt.Frame;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FilenameFilter;
-import java.io.InputStreamReader;
-import java.io.StringReader;
-import java.sql.ResultSet;
-import java.sql.Statement;
-import java.util.Properties;
+import db.util.core.*;
+import db.util.core.actions.DeleteAction;
+import db.util.core.actions.DropAction;
+import db.util.logger.Logger;
 
-import javax.swing.JOptionPane;
+import javax.swing.*;
 import javax.swing.event.TreeSelectionEvent;
 import javax.swing.event.TreeSelectionListener;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.tree.DefaultTreeModel;
 import javax.swing.tree.TreePath;
-
-
-import db.util.core.ColumnDescr;
-import db.util.core.ConnectionDescr;
-import db.util.core.JdbcUtils;
-import db.util.core.SqlCommands;
-import db.util.core.TableDescr;
-import db.util.core.actions.DeleteAction;
-import db.util.core.actions.DropAction;
-import db.util.logger.Logger;
+import java.awt.*;
+import java.io.*;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.Properties;
 
 class Controller {
 

@@ -1,6 +1,7 @@
 package appl;
 
 import java.util.List;
+
 import static appl.Query.from;
 
 public class Application {

@@ -1,11 +1,11 @@
 package appl;
 
-import static java.lang.System.out;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
+import static java.lang.System.out;
 
 public class CountProcessor {
 	public void run(String filename) {

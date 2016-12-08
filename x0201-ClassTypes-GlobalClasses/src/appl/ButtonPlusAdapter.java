@@ -1,9 +1,9 @@
 package appl;
 
+import util.Features;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import util.Features;
 
 public class ButtonPlusAdapter implements ActionListener {
 	final MathFrame mathFrame;

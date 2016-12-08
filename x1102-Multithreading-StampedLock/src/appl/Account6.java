@@ -1,8 +1,8 @@
 package appl;
 
-import java.util.concurrent.locks.StampedLock;
-
 import util.ThreadUtil;
+
+import java.util.concurrent.locks.StampedLock;
 
 public class Account6 implements Account {
 

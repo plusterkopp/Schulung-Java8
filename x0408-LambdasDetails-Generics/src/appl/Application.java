@@ -1,15 +1,15 @@
 package appl;
 
-import static java.lang.System.out;
+import util.Features;
+import util.LambdaUtil;
+import util.Log;
 
 import java.lang.invoke.SerializedLambda;
 import java.lang.reflect.Method;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 
-import util.Features;
-import util.LambdaUtil;
-import util.Log;
+import static java.lang.System.out;
 
 public class Application {
 

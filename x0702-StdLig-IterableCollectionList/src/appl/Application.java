@@ -1,12 +1,8 @@
 package appl;
 
-import static java.lang.System.out;
+import java.util.*;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.List;
+import static java.lang.System.out;
 
 public class Application {
 	

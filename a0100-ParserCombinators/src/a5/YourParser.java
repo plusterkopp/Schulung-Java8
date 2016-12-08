@@ -1,16 +1,14 @@
 package a5;
 
-import java.io.StringReader;
-
 import parser.NumberParser;
-import parser.OrParser;
 import parser.Parser;
-import parser.RepSepParser;
 import parser.Seq3Parser;
 import parser.SpecialParser;
 import scanner.Scanner;
 import scanner.Special;
 import scanner.Specials;
+
+import java.io.StringReader;
 
 public class YourParser {
 	

@@ -1,11 +1,11 @@
 package li;
 
-import static java.lang.System.out;
+import util.Features;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-import util.Features;
+import static java.lang.System.out;
 
 public class Application {
 

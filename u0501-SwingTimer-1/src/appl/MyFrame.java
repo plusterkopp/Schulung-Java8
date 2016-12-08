@@ -1,12 +1,9 @@
 package appl;
 
-import java.awt.FlowLayout;
-import java.awt.TextField;
-
-import javax.swing.JFrame;
-import javax.swing.SwingUtilities;
-
 import util.ThreadUtil;
+
+import javax.swing.*;
+import java.awt.*;
 
 public class MyFrame extends JFrame {
 	private final TextField textField = new TextField(10);

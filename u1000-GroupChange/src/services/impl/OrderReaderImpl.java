@@ -1,11 +1,11 @@
 package services.impl;
 
+import model.Order;
+import services.iface.OrderReader;
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
-
-import services.iface.OrderReader;
-import model.Order;
 
 public class OrderReaderImpl implements OrderReader {
 	private BufferedReader reader;

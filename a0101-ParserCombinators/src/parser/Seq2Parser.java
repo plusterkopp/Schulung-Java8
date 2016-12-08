@@ -1,11 +1,11 @@
 package parser;
 
-import java.util.function.Supplier;
-
 import scanner.Scanner;
 import scanner.Symbol;
 import util.Func2;
 import util.Lazy;
+
+import java.util.function.Supplier;
 
 public class Seq2Parser<T0, T1, R> extends Parser<R> {
 	private final Lazy<Parser<T0>> p0;

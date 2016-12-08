@@ -1,14 +1,13 @@
 package a0;
 
-import java.io.StringReader;
-
 import org.junit.Assert;
 import org.junit.Test;
-
 import scanner.Scanner;
 import scanner.Special;
 import scanner.Specials;
 import scanner.Symbol;
+
+import java.io.StringReader;
 
 public class TestScanner {
 	@Test

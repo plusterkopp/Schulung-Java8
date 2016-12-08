@@ -1,11 +1,11 @@
 package parser;
 
-import java.util.function.BiConsumer;
-import java.util.function.Supplier;
-
 import scanner.Scanner;
 import scanner.Symbol;
 import util.Lazy;
+
+import java.util.function.BiConsumer;
+import java.util.function.Supplier;
 
 public class RepCollectParser<T, E> extends Parser<T> {
 	public static <T,E> RepCollectParser<T, E> repCollect(Supplier<Parser<E>> parser, Supplier<Parser<?>> sepParser, Supplier<T> init, BiConsumer<T, E> action) {

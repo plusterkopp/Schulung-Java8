@@ -1,9 +1,9 @@
 package parser;
 
-import java.util.function.Function;
-
 import scanner.Scanner;
 import scanner.Symbol;
+
+import java.util.function.Function;
 
 public class MapParser<I, O> extends Parser<O> {
 

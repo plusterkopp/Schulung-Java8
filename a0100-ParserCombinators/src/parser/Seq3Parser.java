@@ -1,10 +1,10 @@
 package parser;
 
-import java.util.function.Supplier;
-
 import scanner.Scanner;
 import scanner.Symbol;
 import util.Func3;
+
+import java.util.function.Supplier;
 
 public class Seq3Parser<T0, T1, T2, R> extends Parser<R> {
 	public static <T0, T1, T2, R> Seq3Parser<T0, T1, T2, R> seq3(

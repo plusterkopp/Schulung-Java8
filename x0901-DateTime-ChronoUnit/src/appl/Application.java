@@ -1,8 +1,8 @@
 package appl;
 
-import static java.lang.System.out;
-
 import java.time.temporal.ChronoUnit;
+
+import static java.lang.System.out;
 
 public class Application {
 

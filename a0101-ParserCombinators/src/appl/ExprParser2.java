@@ -1,17 +1,17 @@
 package appl;
 
-import static parser.NumberParser.number;
-
-import java.io.StringReader;
-import java.util.LinkedHashMap;
-import java.util.Map;
-
 import parser.ForwardParser;
 import parser.Parser;
 import parser.RepReduceParser;
 import parser.SpecialParser;
 import scanner.Scanner;
 import scanner.Specials;
+
+import java.io.StringReader;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import static parser.NumberParser.number;
 
 public class ExprParser2 {
 	

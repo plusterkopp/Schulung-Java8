@@ -1,11 +1,11 @@
 package appl;
 
-import static java.lang.System.out;
-
 import java.time.Clock;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
+
+import static java.lang.System.out;
 
 public class Application {
 

@@ -1,11 +1,11 @@
 package services.impl;
 
-import java.util.HashMap;
-import java.util.Map;
-
-import services.iface.Database;
 import model.Customer;
 import model.Product;
+import services.iface.Database;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class DatabaseImpl implements Database {
 	private final Map<Integer,Customer> customers = new HashMap<>();

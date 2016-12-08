@@ -1,11 +1,11 @@
 package utils;
 
+import util.Catcher;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
-
-import util.Catcher;
 
 public class SimpleTest extends Test {
 

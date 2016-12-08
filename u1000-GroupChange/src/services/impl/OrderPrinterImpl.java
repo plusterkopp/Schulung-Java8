@@ -1,9 +1,9 @@
 package services.impl;
 
-import services.iface.OrderPrinter;
 import model.Customer;
 import model.Order;
 import model.Product;
+import services.iface.OrderPrinter;
 
 public class OrderPrinterImpl implements OrderPrinter {
 	public void printBegin() {

@@ -1,6 +1,7 @@
 package appl;
 
-import static appl.Operators.*;
+import static appl.Operators.PLUS;
+import static appl.Operators.UMINUS;
 
 public class Application {
 

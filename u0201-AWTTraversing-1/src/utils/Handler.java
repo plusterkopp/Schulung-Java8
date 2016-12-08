@@ -1,6 +1,6 @@
 package utils;
 
-import java.awt.Component;
+import java.awt.*;
 
 public interface Handler {
 	public abstract void handle(Component c);
